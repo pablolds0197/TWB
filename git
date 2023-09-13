@@ -1,0 +1,16 @@
+echo "# TheWarriorBarberShop" >> README.md
+git add README.md
+git branch -M main (elegir una rama)
+
+git init
+git add .
+git commit -m "first commit"
+git config user.email "jplizcano69@gmail.com"
+git config user.name "JPLizcano"
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/JPLizcano/TWBS.git
+git push -u origin master
+
+git commit -m "first commit"
+git push -u origin master
